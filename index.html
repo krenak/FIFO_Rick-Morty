@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de Atendimento - Earth Dimension C-137</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Central de Atendimento - Earth Dimension C-137 </h1>
+
+    <div class="botoes">
+      <button onclick="adicionarPersonagem()">Adicionar</button>
+      <button onclick="atender()">Atender</button>
+    </div>
+
+    <div class="layout-principal">
+      <!-- LADO ESQUERDO -->
+      <div class="coluna">
+          <h2>> Em Atendimento</h2>
+        <div id="atendimento" class="atendimento-box">
+          <p>Ninguém sendo atendido</p>
+        </div>
+      </div>
+
+      <!-- LADO DIREITO -->
+      <div class="coluna">
+          <h2>> Espera</h2>
+        <div id="fila" class="fila"></div>
+      </div>
+    </div>
+
+    <!-- BAIXO -->
+    <div class="historico-container">
+        <h2>> Últimos Atendidos</h2>
+      <div id="historico" class="fila"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
