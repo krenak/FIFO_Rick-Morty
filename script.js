@@ -76,10 +76,7 @@ function atualizarFila() {
   });
 }
 
-
-// ==============================
-// ATUALIZAR HISTÓRICO
-// ==============================
+// atualizacao de historico
 function atualizarHistorico() {
 
   let histDiv = document.getElementById("historico");
