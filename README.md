@@ -26,7 +26,8 @@ Desenvolver uma aplicação web em grupo que simule o uso de filas (FIFO) em um 
 # Projeto escolhido - Central de atendimento
 ### Central de Atendimento - Earth Dimension C-137
 
-#### Objetivo: Criar um sistema de fila que simula o atendimento de personagens do universo Rick and Morty.
+#### Objetivo:
+Criar um sistema de fila que simula o atendimento de personagens do universo Rick and Morty.
 
 #### Requisitos
 - Consumir a API Rick and Morty API
