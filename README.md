@@ -4,8 +4,10 @@ FIFO de um sistema de fila que simula o atendimento de personagens do universo R
 
 ### Atividade em Grupo
 Simulações com Estrutura de Dados do Tipo Fila
+
 #### Objetivo Geral
 Desenvolver uma aplicação web em grupo que simule o uso de filas (FIFO) em um contexto lúdico e prático, utilizando JavaScript, consumo de API gratuita e aplicação de conceitos de estrutura de dados.
+
 #### Requisitos Gerais da Atividade
 - O projeto deve implementar uma fila (estrutura FIFO) funcional em JavaScript.
 - O sistema deve consumir ao menos uma API pública gratuita (divisão dos grupos abaixo).
@@ -16,6 +18,7 @@ Desenvolver uma aplicação web em grupo que simule o uso de filas (FIFO) em um 
 - Cada linguagem deve estar em um arquivo separado (index.html, style.css, script.js).
 - O sistema deve ser plenamente funcional e interativo.
 - O projeto deve ser feito em grupo de 3 a 5 pessoas.
+
 #### Entrega da Atividade
 - Grupos: 3 a 5 alunos
 - Produtos entregues:
@@ -25,6 +28,12 @@ Desenvolver uma aplicação web em grupo que simule o uso de filas (FIFO) em um 
 
 # Projeto escolhido - Central de atendimento
 ### Central de Atendimento - Earth Dimension C-137
+
+#### Grupo:
+1. Anderson A. Fraga
+2. Eduarda Regina Lauer
+3. Jhony Cruzeiro Junior
+4. Michele de Cássia Damasceno
 
 #### Objetivo:
 Criar um sistema de fila que simula o atendimento de personagens do universo Rick and Morty.
