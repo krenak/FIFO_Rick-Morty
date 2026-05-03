@@ -32,7 +32,7 @@ Desenvolver uma aplicação web em grupo que simule o uso de filas (FIFO) em um 
 #### Grupo:
 1. Anderson A. Fraga
 2. Eduarda Regina Lauer
-3. Jhony Cruzeiro Junior
+3. Jhony Jorge Cruzeiro Junior
 4. Michele de Cássia Damasceno
 
 #### Objetivo:
