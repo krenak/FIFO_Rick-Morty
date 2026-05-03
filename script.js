@@ -3,6 +3,7 @@
 let fila = []; // lista de personagens adicionados
 let historico = []; // lista de personagens atendidos
 const limite = 10;
+const somAtendimento = new Audio('Atender.ogg'); // funcao para tocar audio ao clicar em atender
 
 // adicionar
 async function adicionarPersonagem() {
@@ -11,7 +12,7 @@ async function adicionarPersonagem() {
         alert("Fila cheia!");
         return;
     }
-
+    try{
     let id = Math.floor(Math.random() * 826) + 1; // id aleatorio
 
     let res = await fetch(`https://rickandmortyapi.com/api/character/${id}`);
@@ -20,6 +21,9 @@ async function adicionarPersonagem() {
     fila.push(personagem);
 
     atualizarFila();
+    } catch (err) {
+      alert ("Não foi possível buscar o personagem.");
+    }
 }
 
 // atendimento
@@ -29,6 +33,8 @@ function atender() {
     alert("Fila vazia!");
     return;
   }
+   // Toca o som assim que inicia o atendimento
+  somAtendimento.play().catch(e => console.log("Erro ao tocar áudio:", e));
 
   let atendimentoDiv = document.getElementById("atendimento");
   atendimentoDiv.innerHTML = "<p class='processando'>Atendendo...</p>";
